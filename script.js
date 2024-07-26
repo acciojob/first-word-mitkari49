@@ -1,19 +1,15 @@
 function firstWord(s) {
   // your code her
-	const result='';
-	if(s!==''){
-		for(let i=0;i<s.length;i++){
-			if(s.charAt(i)===' '){
-				return result;
-			}
-			else{
-							result+=s.charAt(i);
-			}
-			}
-		return result;
+	if(s===''){
+		return '';
+	}
+	for(let i=0;;i<s.length;i++){
+		if(s[i]===' '){
+			returns.substring(0,i);
 		}
 	}
-}
+	return s;
+	}
 
 // Do not change the code below
 
