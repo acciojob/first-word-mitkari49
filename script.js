@@ -1,16 +1,16 @@
 function firstWord(s) {
-  // your code her
- if (str.length === 0) {
+  // Check if the input string is empty
+  if (s.length === 0) {
     return '';
   }
   
   // Find the index of the first space in the string
-  const index = str.indexOf(' ');
+  const index = s.indexOf(' ');
   
   // If a space is found, return the substring from the beginning to the index
   // Otherwise, return the entire string
-  return index !== -1 ? str.substring(0, index) : str;
-	}
+  return index !== -1 ? s.substring(0, index) : s;
+}
 
 // Do not change the code below
 
