@@ -1,14 +1,7 @@
 function firstWord(s) {
   // your code her
-	if(s===''){
-		return '';
-	}
-	for(let i=0;;i<s.length;i++){
-		if(s[i]===' '){
-			returns.substring(0,i);
-		}
-	}
-	return s;
+const index = s.indexOf(' ');
+  return index !== -1 ? str.substring(0, index) : s;
 	}
 
 // Do not change the code below
